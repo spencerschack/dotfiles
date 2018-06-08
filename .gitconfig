@@ -1,0 +1,41 @@
+[user]
+	name = spencerschack
+	email = spencer.schack@instacart.com
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[branch]
+[push]
+	default = current
+[help]
+	autocorrect = 1
+[alias]
+	ch = checkout
+	cm = "!f() { git commit -m "$@"; }; f"
+	st = status
+	df = diff
+	ad = add -A
+	rb = "!f() { \
+		git ms; \
+		git pull --rebase; \
+		git ch -; \
+		git rebase master; \
+	}; f"
+	nb = checkout -b
+	am = !git commit --amend --no-edit
+	pf = push -f
+	ss = "!f() { git ch spencerschack/$@; }; f"
+	ssb = "!f() { git nb spencerschack/$@; }; f"
+	pr = "!f() { \
+		branch = $(git branch-name); \
+		git ms; \
+		git branch -D $branch; \
+		git push origin --delete $branch; \
+		git pull --rebase; \
+	}; f"
+	branch-name = rev-parse --abbrev-ref HEAD
+	ms = checkout master
+[fetch]
+	prune = true
