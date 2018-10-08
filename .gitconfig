@@ -13,10 +13,11 @@
 	autocorrect = 1
 [alias]
 	ch = checkout
-	cm = "!f(){ git commit -m \"$(echo "${@}")\"; }; f"
+	cm = "!f(){ git commit -m \"$(echo "$@")\"; }; f"
 	st = status
 	df = diff
 	ad = add -A
+	ac = !git ad && git cm $@
 	rb = "!f() { \
 		git ms; \
 		git pull --rebase; \
