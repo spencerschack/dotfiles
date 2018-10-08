@@ -24,7 +24,7 @@
 		git rebase master; \
 	}; f"
 	nb = checkout -b
-	am = !git commit --amend --no-edit
+	an = !git commit --amend --no-edit
 	pf = push -f
 	ss = "!f() { git ch spencerschack/$@; }; f"
 	ssb = "!f() { git nb spencerschack/$@; }; f"
