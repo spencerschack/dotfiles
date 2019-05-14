@@ -17,7 +17,7 @@
 	st = status
 	df = diff
 	ad = add -A
-	ac = !git ad && git cm $@
+	ac = !git ad && git cm
 	rb = "!f() { \
 		git ms; \
 		git pull --rebase; \
