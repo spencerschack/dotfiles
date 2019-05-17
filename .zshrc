@@ -9,8 +9,8 @@ alias c="cd ~/Shareably/sbly-dash-collector"
 alias s="npm start"
 
 alias commitdotfiles="cd ~ && git ac \"Sync: `date`\" && git pf"
-alias zshrc="code ~/.zshrc -w && source ~/.zshrc"
-alias gitconfig="code ~/.gitconfig"
+alias zshrc="code ~/.zshrc -w && source ~/.zshrc && commitdotfiles"
+alias gitconfig="code ~/.gitconfig && commitdotfiles"
 
 autoload -U promptinit; promptinit
 prompt pure
