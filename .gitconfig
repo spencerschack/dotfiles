@@ -16,6 +16,7 @@
 	cm = "!f(){ git commit -m \"$(echo "$@")\"; }; f"
 	st = status
 	df = diff
+	ds = diff --staged
 	ad = add -A
 	ac = !git ad && git cm
 	rb = "!f() { \
