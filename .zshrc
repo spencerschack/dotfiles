@@ -1,4 +1,6 @@
 export ZSH="/Users/spencerschack/.oh-my-zsh"
+export VISUAL="code -w"
+export EDITOR="$VISUAL"
 
 plugins=(git zsh-completions zsh-autosuggestions)
 
