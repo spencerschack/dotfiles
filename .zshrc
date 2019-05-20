@@ -8,7 +8,7 @@ alias d="cd ~/Shareably/sbly-dash"
 alias c="cd ~/Shareably/sbly-dash-collector"
 alias s="npm start"
 
-alias commitdotfiles="cd ~ && git ac \"Sync: `date`\" && git pf"
+alias commitdotfiles="cd ~ && git ac \"Sync: `date`\" && git pf && cd -"
 alias zshrc="code ~/.zshrc -w && source ~/.zshrc && commitdotfiles"
 alias gitconfig="code ~/.gitconfig -w && commitdotfiles"
 
