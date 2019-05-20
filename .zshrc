@@ -10,7 +10,7 @@ alias s="npm start"
 
 alias commitdotfiles="cd ~ && git ac \"Sync: `date`\" && git pf"
 alias zshrc="code ~/.zshrc -w && source ~/.zshrc && commitdotfiles"
-alias gitconfig="code ~/.gitconfig && commitdotfiles"
+alias gitconfig="code ~/.gitconfig -w && commitdotfiles"
 
 autoload -U promptinit; promptinit
 prompt pure
