@@ -12,6 +12,7 @@
 [help]
 	autocorrect = 1
 [alias]
+	ps = push
 	ch = checkout
 	cm = "!f(){ git commit -m \"$(echo "$@")\"; }; f"
 	st = status
@@ -19,6 +20,7 @@
 	ds = diff --staged
 	ad = add -A
 	ac = !git ad && git cm
+	acp = "!f() { git ac $@; git ps; }; f"
 	rb = "!f() { \
 		git ms; \
 		git pull --rebase; \
