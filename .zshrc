@@ -8,6 +8,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias d="cd ~/Shareably/sbly-dash"
 alias c="cd ~/Shareably/sbly-dash-collector"
+alias w="cd ~/Shareably/sbly-wp"
 alias s="npm start"
 
 alias commitdotfiles="cd ~ && git ac \"Sync: `date`\" && git pf && cd -"
