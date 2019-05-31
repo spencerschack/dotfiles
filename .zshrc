@@ -6,6 +6,8 @@ plugins=(git zsh-completions zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
+alias howdoi="howdoi -n5"
+
 alias d="cd ~/Shareably/sbly-dash"
 alias c="cd ~/Shareably/sbly-dash-collector"
 alias w="cd ~/Shareably/sbly-wp"
