@@ -8,6 +8,8 @@ source $ZSH/oh-my-zsh.sh
 
 alias howdoi="howdoi -n5"
 
+alias snow="/Applications/SnowSQL.app/Contents/MacOS/snowsql"
+
 alias d="cd ~/Shareably/sbly-dash"
 alias c="cd ~/Shareably/sbly-dash-collector"
 alias w="cd ~/Shareably/sbly-wp"
