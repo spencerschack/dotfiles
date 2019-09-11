@@ -15,6 +15,7 @@ alias d="cd ~/Shareably/sbly-dash"
 alias c="cd ~/Shareably/sbly-dash-collector"
 alias w="cd ~/Shareably/sbly-wp"
 alias s="npm start"
+alias snowsql="/Applications/SnowSQL.app/Contents/MacOS/snowsql"
 
 alias commitdotfiles="cd ~ && git ac \"Sync: `date`\" && git pf && cd -"
 alias zshrc="code ~/.zshrc -w && source ~/.zshrc && commitdotfiles"
