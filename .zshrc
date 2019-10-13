@@ -11,7 +11,7 @@ alias howdoi="howdoi -n5"
 
 alias snow="/Applications/SnowSQL.app/Contents/MacOS/snowsql"
 
-alias x="xargs -n1 -I%"
+alias x="xargs -n1 -J%"
 
 alias d="cd ~/Shareably/sbly-dash"
 alias c="cd ~/Shareably/sbly-dash-collector"
