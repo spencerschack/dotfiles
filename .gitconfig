@@ -22,6 +22,7 @@
 	ap = add -p
 	ac = !git ad && git cm
 	acp = "!f() { git ac $@; git ps; }; f"
+	acgh = "!f() { git ac $@; git gh; }; f"
 	rc = rebase --continue
 	rb = "!f() { \
 		git ms; \
