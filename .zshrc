@@ -18,6 +18,7 @@ alias c="cd ~/Shareably/sbly-dash-collector"
 alias w="cd ~/Shareably/sbly-wp"
 alias s="npm start"
 alias r="npm run repl"
+alias e="npm run run-dev"
 alias snowsql="/Applications/SnowSQL.app/Contents/MacOS/snowsql"
 json() {
   jq -C $* | less -R
