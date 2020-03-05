@@ -13,7 +13,7 @@ alias howdoi="howdoi -n5"
 alias snow="/Applications/SnowSQL.app/Contents/MacOS/snowsql"
 
 alias x="xargs -n1 -I%"
-
+alias k="kubectl"
 alias d="cd ~/Shareably/sbly-dash"
 alias c="cd ~/Shareably/sbly-dash-collector"
 alias w="cd ~/Shareably/sbly-wp"
