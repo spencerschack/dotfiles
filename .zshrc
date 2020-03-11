@@ -27,6 +27,9 @@ json() {
 manp() {
   man -t $1 | open -f -a Preview
 }
+sum() {
+  ruby -e "puts STDIN.each_line.map(&:to_f).sum"
+}
 
 alias commitdotfiles="cd ~ && git ac \"Sync: `date`\" && git pf && cd -"
 alias zshrc="code ~/.zshrc -w && source ~/.zshrc && commitdotfiles"
