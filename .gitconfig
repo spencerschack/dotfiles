@@ -12,6 +12,7 @@
 [help]
 	autocorrect = 1
 [alias]
+	psrb = "!f(){ git push || git pull --rebase && git push }; f"
 	ps = push
 	ch = checkout
 	cm = "!f(){ git commit -m \"$(echo "$@")\"; }; f"
