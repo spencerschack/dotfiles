@@ -1,7 +1,7 @@
 export ZSH="/Users/spencerschack/.oh-my-zsh"
 export VISUAL="code -w"
 export EDITOR="$VISUAL"
-export PATH=$HOME/.bin:$PATH
+export PATH=$HOME/.bin:$PATH:./bin
 export AIRFLOW_HOME=~/Shareably/airflow
 
 plugins=(git zsh-completions zsh-autosuggestions)
