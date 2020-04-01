@@ -3,3 +3,5 @@
 !.zshrc
 !.bin/
 !.bin/*
+!.iterm2/
+!.iterm2/*
