@@ -18,6 +18,7 @@ alias s="snowsql"
 alias d="cd ~/Shareably/sbly-dash"
 alias c="cd ~/Shareably/sbly-dash-collector"
 alias w="cd ~/Shareably/sbly-wp"
+alias a="cd ~/Shareably/sbly-scheduler"
 alias r="npm run repl"
 alias e="npm run run-dev"
 json() {
