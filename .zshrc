@@ -40,6 +40,10 @@ prompt pure
 
 autoload -U compinit; compinit
 
+psqljson() {
+  jq -c | psql -c "TRUCNATE TABLE json; COPY json FROM STDIN"
+}
+
 eval "$(rbenv init -)"
 
 export NVM_DIR="$HOME/.nvm"
