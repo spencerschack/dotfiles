@@ -41,7 +41,7 @@ prompt pure
 autoload -U compinit; compinit
 
 psqljson() {
-  jq -c | psql -c "TRUNCATE TABLE json; COPY json FROM STDIN"
+  jq -c | psql -c "DROP TABLE IF EXISTS $1; CREATE TABLE $1 (record JSONB); COPY $1 FROM STDIN"
 }
 
 eval "$(rbenv init -)"
