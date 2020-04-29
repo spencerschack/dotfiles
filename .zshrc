@@ -1,7 +1,8 @@
 export ZSH="/Users/spencerschack/.oh-my-zsh"
 export VISUAL="code -w"
 export EDITOR="$VISUAL"
-export PATH=$HOME/.bin:$PATH:./bin
+export PATH=$HOME/.bin:$PATH:./bin:$HOME/Library/Python/3.7/bin
+
 export AIRFLOW_HOME=~/Shareably/airflow
 
 plugins=(git zsh-completions zsh-autosuggestions)
