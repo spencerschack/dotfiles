@@ -15,12 +15,16 @@ alias snowsql="/Applications/SnowSQL.app/Contents/MacOS/snowsql"
 
 alias x="xargs -n1 -I%"
 alias k="kubectl"
-alias d="cd ~/Shareably/sbly-dash"
-alias c="cd ~/Shareably/sbly-dash-collector"
-alias w="cd ~/Shareably/sbly-wp"
-alias a="cd ~/Shareably/sbly-scheduler"
-alias r="npm run repl"
 alias v="code ."
+alias r="npm run repl"
+alias d="cd ~/Shareably/sbly-dash"
+alias dv="d && v"
+alias c="cd ~/Shareably/sbly-dash-collector"
+alias cv="c && v"
+alias w="cd ~/Shareably/sbly-wp"
+alias wv="w && v"
+alias a="cd ~/Shareably/sbly-scheduler"
+alias av="a && v"
 json() {
   jq -C $* | less -R
 }
