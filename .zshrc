@@ -48,6 +48,14 @@ psqljson() {
   jq -c | psql -c "DROP TABLE IF EXISTS $1; CREATE TABLE $1 (record JSONB); COPY $1 FROM STDIN"
 }
 
+jsontable() {
+  jq -r -s "
+    [.[]| with_entries( .key |= ascii_downcase ) ]
+        |    (.[0] |keys_unsorted | @tsv)
+          , (.[]|.|map(.) |@tsv)
+  " | column -t -s $'\t'
+}
+
 eval "$(rbenv init -)"
 
 export NVM_DIR="$HOME/.nvm"
