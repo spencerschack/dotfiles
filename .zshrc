@@ -45,3 +45,14 @@ jsontable() {
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+eval "$(rbenv init -)"
+
+
+
+### BEGIN--Instacart Shell Settings. (Updated: Mon Mar 22 15:20:49 PDT 2021. [Script Version 1.2.11])
+# This Line Added Automatically by Instacart Setup Script
+# The sourced file contains all of the instacart utilities and shell settings
+# To remove this functionality, leave the block, and enter "NO-TOUCH" in the BEGIN line, and comment the line below:
+source /Users/spencerschack/.instacart_shell_profile
+### END--Instacart Shell Settings.
