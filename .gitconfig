@@ -44,7 +44,13 @@
 		git pull --rebase; \
 	}; f"
 	branch-name = rev-parse --abbrev-ref HEAD
+	repo-name = remote get-url origin | cut -d: -f2 | cut -d. -f1
 	ms = checkout master
+	gh = "!f() { \
+		branch=$(git branch-name); \
+		repo=$(git repo-name); \
+		open https://github.com/$repo/compare/$branch; \
+	}; f"
 [fetch]
 	prune = true
 [pull]
