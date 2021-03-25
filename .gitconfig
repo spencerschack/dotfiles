@@ -44,7 +44,7 @@
 		git pull --rebase; \
 	}; f"
 	branch-name = rev-parse --abbrev-ref HEAD
-	repo-name = remote get-url origin | cut -d: -f2 | cut -d. -f1
+	repo-name = "!f() { git remote get-url origin | cut -d: -f2 | cut -d. -f1; }; f"
 	ms = checkout master
 	gh = "!f() { \
 		branch=$(git branch-name); \
