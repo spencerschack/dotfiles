@@ -8,7 +8,7 @@ plugins=(git zsh-completions zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
 alias howdoi="howdoi -n5"
-
+alias be="bundle exec"
 alias x="xargs -n1 -I%"
 alias v="code ."
 json() {
