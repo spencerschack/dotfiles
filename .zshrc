@@ -49,9 +49,13 @@ export NVM_DIR="$HOME/.nvm"
 eval "$(rbenv init -)"
 
 alias m="cd ~/Instacart/carrot/tools/mango-ruby"
+alias mv="cd ~/Instacart/carrot/tools/mango-ruby && v"
 alias i="cd ~/Instacart/carrot/customers/instacart"
+alias iv="cd ~/Instacart/carrot/customers/instacart && v"
 alias b="cd ~/Instacart/carrot/customers/customers-backend"
+alias bv="cd ~/Instacart/carrot/customers/customers-backend && v"
 alias s="cd ~/Instacart/carrot/customers/store"
+alias sv="cd ~/Instacart/carrot/customers/store && v"
 
 ### BEGIN--Instacart Shell Settings. (Updated: Mon Mar 22 15:20:49 PDT 2021. [Script Version 1.2.11])
 # This Line Added Automatically by Instacart Setup Script
