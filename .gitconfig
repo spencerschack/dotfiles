@@ -22,13 +22,13 @@
 	ad = add -A
 	ap = add -p
 	ac = !git ad && git cm
-	acp = "!f() { git ac $@; git ps; }; f"
-	acpg = "!f() { git acp $@; git gh; }; f"
+	acp = "!f() { git ac $@ && git ps; }; f"
+	acpg = "!f() { git acp $@ && git gh; }; f"
 	rc = rebase --continue
 	rb = "!f() { \
-		git ms; \
-		git pull --rebase; \
-		git ch -; \
+		git ms && \
+		git pull --rebase && \
+		git ch - && \
 		git rebase master; \
 	}; f"
 	nb = checkout -b
@@ -38,9 +38,9 @@
 	ssb = "!f() { git nb spencerschack/$@ master; }; f"
 	pr = "!f() { \
 		branch=$(git branch-name); \
-		git ms; \
-		git branch -D $branch; \
-		git push origin --delete $branch; \
+		git ms && \
+		git branch -D $branch && \
+		git push origin --delete $branch && \
 		git pull --rebase; \
 	}; f"
 	branch-name = rev-parse --abbrev-ref HEAD
