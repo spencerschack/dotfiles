@@ -47,6 +47,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 eval "$(rbenv init -)"
+eval "$(nodenv init -)"
 
 alias m="cd ~/Instacart/carrot/tools/mango-ruby"
 alias i="cd ~/Instacart/carrot/customers/instacart"
