@@ -20,6 +20,13 @@ manp() {
 sum() {
   ruby -e "puts STDIN.each_line.map(&:to_f).sum"
 }
+unalias g
+g() {
+  for command in "$@"
+  do
+    git $command
+  done
+}
 
 alias commitdotfiles="cd ~ && git ac \"Sync: `date`\" && git pf && cd -"
 alias zshrc="code ~/.zshrc -w && source ~/.zshrc && commitdotfiles"
