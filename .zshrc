@@ -2,7 +2,6 @@ export ZSH="/Users/spencerschack/.oh-my-zsh"
 export VISUAL="code -w"
 export EDITOR="$VISUAL"
 export PATH=$HOME/.bin:$PATH:./bin:$HOME/Library/Python/3.7/bin
-export RUBOCOP_DAEMON_USE_BUNDLER=true
 
 plugins=(git zsh-completions zsh-autosuggestions)
 
