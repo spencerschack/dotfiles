@@ -1,4 +1,4 @@
-source .secrets
+source ~/.secrets
 
 export ZSH="/Users/spencerschack/.oh-my-zsh"
 export VISUAL="code -w"
