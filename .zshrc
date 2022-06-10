@@ -1,3 +1,5 @@
+source .secrets
+
 export ZSH="/Users/spencerschack/.oh-my-zsh"
 export VISUAL="code -w"
 export EDITOR="$VISUAL"
@@ -73,10 +75,12 @@ alias c="cd ~/Instacart/carrot/catalog/catalog"
 source /Users/spencerschack/.instacart_shell_profile
 ### END--Instacart Shell Settings.
 
+
 # BENTO_COMPLETIONS_START
-export BENTO_COMPLETIONS_VERSION=1
+export BENTO_COMPLETIONS_VERSION=2
 
 autoload -U compinit; compinit
 source <(bento completion zsh --silent)
+export PGHOST=localhost # Set PGHOST to talk to bento postgres
 
 # BENTO_COMPLETIONS_END
