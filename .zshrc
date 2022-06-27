@@ -66,6 +66,7 @@ eval "$(nodenv init -)"
 alias i="cd ~/Instacart/carrot/customers/instacart"
 alias b="cd ~/Instacart/carrot/customers/customers-backend"
 alias s="cd ~/Instacart/carrot/spark/in-store"
+alias t="cd ~/Instacart/tf-instacart"
 
 ### BEGIN--Instacart Shell Settings. (Updated: Mon Mar 22 15:20:49 PDT 2021. [Script Version 1.2.11])
 # This Line Added Automatically by Instacart Setup Script
