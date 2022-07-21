@@ -49,7 +49,7 @@
 		repo=$(git repo-name); \
 		open https://github.com/$repo/compare/$branch; \
 	}; f"
-	sync = git fetch origin master:master
+	sync = fetch origin master:master
 [fetch]
 	prune = true
 [pull]
