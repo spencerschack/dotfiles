@@ -37,7 +37,7 @@
 	ss = "!f() { git ch spencerschack/$@; }; f"
 	ssb = "!f() { git nb spencerschack/$@ master; }; f"
 	pr = "!f() { \
-		branch=$(git branch-name); \
+		branch=$1 || $(git branch-name); \
 		git ms && \
 		git branch -D $branch && \
 		(git push origin --delete $branch || echo 'remote already deleted') && \
