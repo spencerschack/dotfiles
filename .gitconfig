@@ -26,9 +26,7 @@
 	acpg = "!f() { git acp $@ && git gh; }; f"
 	rc = rebase --continue
 	rb = "!f() { \
-		git ms && \
-		git pull --rebase && \
-		git ch - && \
+		git sync && \
 		git rebase master; \
 	}; f"
 	nb = checkout -b
@@ -51,6 +49,7 @@
 		repo=$(git repo-name); \
 		open https://github.com/$repo/compare/$branch; \
 	}; f"
+	sync = git fetch origin master:master
 [fetch]
 	prune = true
 [pull]
