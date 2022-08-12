@@ -1,3 +1,4 @@
+zmodload zsh/zprof
 source ~/.secrets
 
 export ZSH="/Users/spencerschack/.oh-my-zsh"
@@ -85,3 +86,4 @@ source <(bento completion zsh --silent)
 export PGHOST=localhost # Set PGHOST to talk to bento postgres
 
 # BENTO_COMPLETIONS_END
+zprof
