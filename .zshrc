@@ -62,23 +62,19 @@ alias s="cd ~/Instacart/carrot/customers/store"
 alias n="cd ~/Instacart/carrot/spark/in-store"
 alias t="cd ~/Instacart/tf-instacart"
 
-# This stuff was taking way too long to load, I'm manually copying the stuff
-# out of it that's necessary:
-export CARROT_DIR=/Users/spencerschack/Instacart/carrot
-
-# ### BEGIN--Instacart Shell Settings. (Updated: Mon Mar 22 15:20:49 PDT 2021. [Script Version 1.2.11])
-# # This Line Added Automatically by Instacart Setup Script
-# # The sourced file contains all of the instacart utilities and shell settings
-# # To remove this functionality, leave the block, and enter "NO-TOUCH" in the BEGIN line, and comment the line below:
-# source /Users/spencerschack/.instacart_shell_profile
-# ### END--Instacart Shell Settings.
+### BEGIN--Instacart Shell Settings. (Updated: Mon Mar 22 15:20:49 PDT 2021. [Script Version 1.2.11])
+# This Line Added Automatically by Instacart Setup Script
+# The sourced file contains all of the instacart utilities and shell settings
+# To remove this functionality, leave the block, and enter "NO-TOUCH" in the BEGIN line, and comment the line below:
+source /Users/spencerschack/.instacart_shell_profile
+### END--Instacart Shell Settings.
 
 
-# # BENTO_COMPLETIONS_START
-# export BENTO_COMPLETIONS_VERSION=2
+# BENTO_COMPLETIONS_START
+export BENTO_COMPLETIONS_VERSION=2
 
-# autoload -U compinit; compinit
-# source <(bento completion zsh --silent)
-# export PGHOST=localhost # Set PGHOST to talk to bento postgres
+autoload -U compinit; compinit
+source <(bento completion zsh --silent)
+export PGHOST=localhost # Set PGHOST to talk to bento postgres
 
-# # BENTO_COMPLETIONS_END
+# BENTO_COMPLETIONS_END
