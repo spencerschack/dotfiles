@@ -1,4 +1,3 @@
-zmodload zsh/zprof
 source ~/.secrets
 
 export ZSH="/Users/spencerschack/.oh-my-zsh"
@@ -57,13 +56,6 @@ jsontable() {
   " | column -t -s $'\t'
 }
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-eval "$(rbenv init -)"
-eval "$(nodenv init -)"
-
 alias i="cd ~/Instacart/carrot/customers/instacart"
 alias b="cd ~/Instacart/carrot/customers/customers-backend"
 alias s="cd ~/Instacart/carrot/customers/store"
@@ -86,4 +78,3 @@ source <(bento completion zsh --silent)
 export PGHOST=localhost # Set PGHOST to talk to bento postgres
 
 # BENTO_COMPLETIONS_END
-zprof
