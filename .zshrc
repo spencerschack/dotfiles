@@ -14,7 +14,7 @@ plugins=(git zsh-completions zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
-alias howdoi="howdoi -n5"
+alias howdoi="howdoi -n5 -a"
 alias be="bundle exec"
 alias x="xargs -n1 -I%"
 alias v="code ."
