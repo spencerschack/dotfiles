@@ -5,6 +5,8 @@ export VISUAL="code -w"
 export EDITOR="$VISUAL"
 export PATH=$HOME/.bin:$PATH:./bin:$HOME/Library/Python/3.7/bin
 
+export HOMEBREW_NO_AUTO_UPDATE=1
+
 export SNOWFLAKE_ACCOUNT='instacart'
 export SNOWFLAKE_USER='spencerschack'
 export SNOWFLAKE_PRIVATE_KEY=$(cat ~/.ssh/rsa_key.pem | tail -n +2 | head -n 25 | perl -p -e 'chomp if eof')
