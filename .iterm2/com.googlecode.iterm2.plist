@@ -15,6 +15,28 @@
 		<key>0x64-0x100000-0x2</key>
 		<dict>
 			<key>Action</key>
+			<integer>11</integer>
+			<key>Label</key>
+			<string></string>
+			<key>Text</key>
+			<string>0x3</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<key>0x67-0x100000-0x5</key>
+		<dict>
+			<key>Action</key>
+			<integer>11</integer>
+			<key>Label</key>
+			<string></string>
+			<key>Text</key>
+			<string>0x4</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<key>0x74-0x100000-0x11</key>
+		<dict>
+			<key>Action</key>
 			<integer>28</integer>
 			<key>Label</key>
 			<string></string>
