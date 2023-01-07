@@ -19,7 +19,6 @@ source $ZSH/oh-my-zsh.sh
 alias howdoi="howdoi -n5 -a"
 alias be="bundle exec"
 alias x="xargs -n1 -I%"
-alias code="open -b com.microsoft.VSCode"
 alias v="code ."
 json() {
   jq -C $* | less -R
