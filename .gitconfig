@@ -1,6 +1,6 @@
 [user]
 	name = Spencer Schack
-	email = spencer.schack@instacart.com
+	email = scs1818@gmail.com
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true
