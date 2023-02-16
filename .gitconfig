@@ -29,6 +29,10 @@
 		git sync && \
 		git rebase master $@; \
 	}; f"
+	rbp = "!f() { \
+		git rb $@ && \
+		git pf; \
+	}; f"
 	nb = checkout -b
 	an = !git commit --amend --no-edit
 	pf = push -f
