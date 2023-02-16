@@ -27,7 +27,7 @@
 	rc = rebase --continue
 	rb = "!f() { \
 		git sync && \
-		git rebase master; \
+		git rebase master $@; \
 	}; f"
 	nb = checkout -b
 	an = !git commit --amend --no-edit
