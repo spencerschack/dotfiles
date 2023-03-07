@@ -38,6 +38,7 @@
 	pf = push -f
 	ss = "!f() { git ch spencerschack/$@; }; f"
 	ssb = "!f() { git nb spencerschack/$@ master; }; f"
+	ssc = "!f() { git ch spencerschack/$@; }; f"
 	pr = "!f() { \
 		branch=$1 || $(git branch-name); \
 		git ms && \
