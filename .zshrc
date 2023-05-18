@@ -12,6 +12,8 @@ export SNOWFLAKE_USER='spencerschack'
 export SNOWFLAKE_PRIVATE_KEY=$(cat ~/.ssh/rsa_key.pem | tail -n +2 | head -n 25 | perl -p -e 'chomp if eof')
 export SNOWFLAKE_DB="catalog_dev"
 
+export MY_INSTACART_EMAIL='spencer.schack@instacart.com'
+
 plugins=(git zsh-completions zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
