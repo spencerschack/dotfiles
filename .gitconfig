@@ -39,7 +39,7 @@
 	andp = "!f() { git ad $@ && git an && git pf; }; f"
 	pf = push -f
 	ss = "!f() { git ch spencerschack/$@; }; f"
-	ssb = "!f() { git nb spencerschack/$@ ${1:-master}; }; f"
+	ssb = "!f() { git nb spencerschack/$1 ${2:-master}; }; f"
 	ssc = "!f() { git ch spencerschack/$@; }; f"
 	pr = "!f() { \
 		branch=$1 || $(git branch-name); \
