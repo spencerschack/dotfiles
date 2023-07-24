@@ -69,6 +69,7 @@
 	keepBackup = false
 [core]
 	whitespace = trailing-space,space-before-tab
+	fsmonitor = true
 [diff]
 	mnemonicprefix = true
 [merge]
