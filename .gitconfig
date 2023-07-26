@@ -57,6 +57,11 @@
 		open https://github.com/$repo/compare/$branch; \
 	}; f"
 	sync = fetch origin master:master
+	rerun = "!f() { \
+		git ch $@ && \
+		git rb && \
+		git pf; \
+	}; f"
 [fetch]
 	prune = true
 [pull]
