@@ -67,6 +67,7 @@ alias b="cd ~/Instacart/carrot/customers/customers-backend"
 alias s="cd ~/Instacart/carrot/customers/store"
 alias n="cd ~/Instacart/carrot/spark/in-store"
 alias m="cd ~/Instacart/carrot/tools/migrations"
+alias p="cd ~/Instacart/carrot/shared/protos/instacart"
 alias t="cd ~/Instacart/tf-instacart"
 
 ### BEGIN--Instacart Shell Settings. (Updated: Mon Mar 22 15:20:49 PDT 2021. [Script Version 1.2.11])
