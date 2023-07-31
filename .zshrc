@@ -22,7 +22,7 @@ alias howdoi="howdoi -n5 -a"
 alias x="xargs -n1 -I%"
 alias v="code ."
 be() {
-  (bundle check || bundle install) && bundle exec $@
+  bundle exec $@
 }
 json() {
   jq -C $* | less -R
