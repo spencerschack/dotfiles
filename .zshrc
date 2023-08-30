@@ -5,7 +5,7 @@ export VISUAL="code -w"
 export EDITOR="$VISUAL"
 export PATH=$HOME/.bin:$PATH:./bin:$HOME/Library/Python/3.7/bin
 
-export HOMEBREW_NO_AUTO_UPDATE=1
+export HOMEBREW_NO_ANALYTICS=1
 
 export SNOWFLAKE_ACCOUNT='instacart'
 export SNOWFLAKE_USER='spencerschack'
