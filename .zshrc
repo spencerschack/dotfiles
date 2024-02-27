@@ -21,9 +21,6 @@ source $ZSH/oh-my-zsh.sh
 alias howdoi="howdoi -n5 -a"
 alias x="xargs -n1 -I%"
 alias v="code ."
-be() {
-  bundle exec $@
-}
 json() {
   jq -C $* | less -R
 }
@@ -62,12 +59,6 @@ jsontable() {
   " | column -t -s $'\t'
 }
 
-alias i="cd ~/Instacart/carrot/customers/instacart"
-alias b="cd ~/Instacart/carrot/customers/customers-backend"
-alias s="cd ~/Instacart/carrot/customers/store"
-alias n="cd ~/Instacart/carrot/spark/in-store"
-alias m="cd ~/Instacart/carrot/tools/migrations"
-alias p="cd ~/Instacart/carrot/shared/protos/instacart"
 alias t="cd ~/Instacart/tf-instacart"
 
 ### BEGIN--Instacart Shell Settings. (Updated: Mon Mar 22 15:20:49 PDT 2021. [Script Version 1.2.11])
@@ -79,6 +70,12 @@ source /Users/spencerschack/.instacart_shell_profile
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+if [ -d ~/.zshrc.d ]; then
+    for i in $(find $HOME/.zshrc.d/ -name '*.zsh' -o -name '*.sh' | sort); do
+        . $i
+    done
+    unset i
+fi
 
 # BENTO_COMPLETIONS_START
 export BENTO_COMPLETIONS_VERSION=2
