@@ -77,6 +77,8 @@ alias t="cd ~/Instacart/tf-instacart"
 source /Users/spencerschack/.instacart_shell_profile
 ### END--Instacart Shell Settings.
 
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
 
 # BENTO_COMPLETIONS_START
 export BENTO_COMPLETIONS_VERSION=2
@@ -86,22 +88,3 @@ source <(bento completion zsh --silent)
 export PGHOST=localhost # Set PGHOST to talk to bento postgres
 
 # BENTO_COMPLETIONS_END
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/usr/local/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/usr/local/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/usr/local/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/usr/local/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
-
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
