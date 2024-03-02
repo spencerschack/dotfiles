@@ -29,6 +29,10 @@
 		git sync && \
 		git rebase master $@; \
 	}; f"
+	mm = "!f() { \
+		git sync && \
+		git merge master $@; \
+	}; f"
 	rbp = "!f() { \
 		git rb $@ && \
 		git pf; \
