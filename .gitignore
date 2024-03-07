@@ -6,5 +6,4 @@
 !.iterm2/
 !.iterm2/*
 !Brewfile
-!.bento-remote-local-hook.sh
-!.bento-remote-instance-hook.sh
+!.bento/
