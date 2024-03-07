@@ -1,6 +1,8 @@
 *
 !.gitignore
 !.zshrc
+!.zshrc.d/
+!.zshrc.d/*
 !.bin/
 !.bin/*
 !.iterm2/

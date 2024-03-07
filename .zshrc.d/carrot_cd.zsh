@@ -1,0 +1,6 @@
+alias i="cd $CARROT_DIR/customers/instacart"
+alias b="cd $CARROT_DIR/customers/customers-backend"
+alias s="cd $CARROT_DIR/customers/store"
+alias n="cd $CARROT_DIR/spark/in-store"
+alias m="cd $CARROT_DIR/tools/migrations"
+alias p="cd $CARROT_DIR/shared/protos/instacart"

@@ -1,0 +1,3 @@
+be() {
+  bundle exec $@
+}
