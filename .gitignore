@@ -10,3 +10,7 @@
 !Brewfile
 !.bento/
 !.bento/*
+!.automation/
+!.automation/*
+!.hammerspoon/
+!.hammerspoon/*
