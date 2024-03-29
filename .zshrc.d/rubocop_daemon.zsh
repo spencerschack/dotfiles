@@ -1,0 +1,1 @@
+export RUBOCOP_DAEMON_USE_BUNDLER="true"
