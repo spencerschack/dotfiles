@@ -8,6 +8,10 @@
 	<true/>
 	<key>ClosingTmuxTabKillsTmuxWindows_selection</key>
 	<integer>0</integer>
+	<key>ClosingTmuxWindowKillsTmuxWindows</key>
+	<true/>
+	<key>ClosingTmuxWindowKillsTmuxWindows_selection</key>
+	<integer>0</integer>
 	<key>Default Bookmark Guid</key>
 	<string>6A280730-6CB1-4E1F-9610-9E3595D3AF76</string>
 	<key>DisableWindowSizeSnap</key>
