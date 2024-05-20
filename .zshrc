@@ -1,7 +1,6 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source $(brew --prefix)/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 export ZSH="/Users/spencerschack/.oh-my-zsh"
 export VISUAL="code -w"
