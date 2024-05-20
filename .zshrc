@@ -16,6 +16,7 @@ export SNOWFLAKE_PRIVATE_KEY=$(cat ~/.ssh/rsa_key.pem | tail -n +2 | head -n 25 
 export SNOWFLAKE_DB="catalog_dev"
 
 export MY_INSTACART_EMAIL='spencer.schack@instacart.com'
+export GITHUB_USERNAME=spencerschack
 
 plugins=(git)
 
