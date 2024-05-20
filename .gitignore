@@ -8,6 +8,7 @@
 !.iterm2/
 !.iterm2/*
 !Brewfile
+!Brewfile.lock.json
 !.bento/
 !.bento/*
 !.automation/
