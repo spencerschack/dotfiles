@@ -43,7 +43,7 @@ g() {
 
 alias commitdotfiles="cd ~ && git ac \"Sync: `date`\" && git pf && cd -"
 alias zshrc="code ~/.zshrc -w && source ~/.zshrc && commitdotfiles"
-alias brewfile="code ~/Brewfile -w && brew bundle -f ~/Brewfile && commitdotfiles"
+alias brewfile="code ~/Brewfile -w && brew bundle --global && commitdotfiles"
 alias gitconfig="code ~/.gitconfig -w && commitdotfiles"
 
 autoload -U promptinit; promptinit
