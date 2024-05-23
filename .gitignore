@@ -15,3 +15,5 @@
 !.automation/*
 !.hammerspoon/
 !.hammerspoon/*
+!.ssh/
+!.ssh/bento_user_config
