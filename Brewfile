@@ -1,3 +1,5 @@
+tap "hashicorp/tap"
+brew "hashicorp/tap/terraform"
 cask "rectangle"
 cask "visual-studio-code"
 cask "iterm2"

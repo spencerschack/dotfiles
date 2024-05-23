@@ -26,13 +26,13 @@
         }
       },
       "notion": {
-        "version": "3.8.0",
+        "version": "3.8.1",
         "options": {
           "full_name": "notion"
         }
       },
       "tailscale": {
-        "version": "1.66.3",
+        "version": "1.66.4",
         "options": {
           "full_name": "tailscale"
         }
@@ -212,6 +212,15 @@
             }
           }
         }
+      },
+      "hashicorp/tap/terraform": {
+        "version": "1.8.4",
+        "bottle": false
+      }
+    },
+    "tap": {
+      "hashicorp/tap": {
+        "revision": "922f237793f9f215ce737d11b4483a1645cd3d35"
       }
     }
   },
