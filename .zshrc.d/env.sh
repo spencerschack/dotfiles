@@ -1,0 +1,1 @@
+export SNOWFLAKE_CONNECTION_STRING="Driver=SnowflakeDSIIDriver;server=instacart-instacart.snowflakecomputing.com;warehouse=DEVELOPER_WH;uid=SPENCERSCHACK;authenticator=SNOWFLAKE_JWT;priv_key_file=$HOME/.ssh/rsa_key.pem"
