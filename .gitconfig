@@ -1,6 +1,6 @@
 [user]
 	name = Spencer Schack
-	email = scs1818@gmail.com
+	email = spencer.schack@instacart.com
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true
@@ -8,7 +8,8 @@
 	smudge = git-lfs smudge -- %f
 [branch]
 [push]
-	default = current
+	default = simple
+	autoSetupRemote = true
 [help]
 	autocorrect = 1
 [alias]
@@ -79,6 +80,7 @@
 [core]
 	whitespace = trailing-space,space-before-tab
 	fsmonitor = true
+	hooksPath = /Users/spencerschack/.secret-doge/hooks
 [diff]
 	mnemonicprefix = true
 [merge]
@@ -87,3 +89,5 @@
 	helper = osxkeychain
 [url "git@github.com:"]
 	insteadOf = https://github.com/
+[feature]
+	manyFiles = 1

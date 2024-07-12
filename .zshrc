@@ -65,13 +65,6 @@ jsontable() {
 
 alias t="cd ~/Instacart/tf-instacart"
 
-### BEGIN--Instacart Shell Settings. (Updated: Mon Mar 22 15:20:49 PDT 2021. [Script Version 1.2.11])
-# This Line Added Automatically by Instacart Setup Script
-# The sourced file contains all of the instacart utilities and shell settings
-# To remove this functionality, leave the block, and enter "NO-TOUCH" in the BEGIN line, and comment the line below:
-source /Users/spencerschack/.instacart_shell_profile
-### END--Instacart Shell Settings.
-
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 if [ -d ~/.zshrc.d ]; then
@@ -89,3 +82,11 @@ source <(bento completion zsh --silent)
 export PGHOST=localhost # Set PGHOST to talk to bento postgres
 
 # BENTO_COMPLETIONS_END
+
+
+### BEGIN--Instacart Shell Settings. (Updated: Fri Jul 12 10:12:46 PDT 2024. [Script Version 1.3.27])
+# This Line Added Automatically by Instacart Setup Script
+# The sourced file contains all of the instacart utilities and shell settings
+# To remove this functionality, leave the block, and enter "NO-TOUCH" in the BEGIN line, and comment the line below:
+source /Users/spencerschack/.instacart_shell_profile
+### END--Instacart Shell Settings.
