@@ -6,6 +6,7 @@ export ZSH="/Users/spencerschack/.oh-my-zsh"
 export VISUAL="code -w"
 export EDITOR="$VISUAL"
 export PATH=$HOME/.bin:$PATH:./bin:$HOME/Library/Python/3.7/bin
+export CARROT_DIR="~/carrot"
 
 export HOMEBREW_NO_ANALYTICS=1
 
