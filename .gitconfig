@@ -69,7 +69,6 @@
 	}; f"
 [fetch]
 	prune = true
-	all = true
 [pull]
 	rebase = true
 [rebase]
