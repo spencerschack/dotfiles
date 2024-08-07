@@ -85,7 +85,8 @@ export PGHOST=localhost # Set PGHOST to talk to bento postgres
 # BENTO_COMPLETIONS_END
 
 
-### BEGIN--Instacart Shell Settings. (Updated: Fri Jul 12 10:12:46 PDT 2024. [Script Version 1.3.27])
+
+### BEGIN--Instacart Shell Settings. (Updated: Tue Aug  6 10:15:13 PDT 2024. [Script Version 1.3.27])
 # This Line Added Automatically by Instacart Setup Script
 # The sourced file contains all of the instacart utilities and shell settings
 # To remove this functionality, leave the block, and enter "NO-TOUCH" in the BEGIN line, and comment the line below:
