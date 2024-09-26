@@ -33,7 +33,7 @@
 	}; f"
 	mm = "!f() { \
 		git sync && \
-		git merge master $@; \
+		git merge master $@ --no-edit; \
 	}; f"
 	rbp = "!f() { \
 		git rb $@ && \
