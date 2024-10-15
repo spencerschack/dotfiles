@@ -49,7 +49,7 @@ alias brewfile="code ~/.Brewfile -w && brew bundle --global && commitdotfiles"
 alias gitconfig="code ~/.gitconfig -w && commitdotfiles"
 
 autoload -U promptinit; promptinit
-PROMPT='%F{blue}%$%f'
+PROMPT='%F{blue}% $ %f'
 
 autoload -U compinit; compinit
 
