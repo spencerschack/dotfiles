@@ -1022,6 +1022,8 @@
 			<string></string>
 			<key>Show Status Bar</key>
 			<true/>
+			<key>Show Timestamps</key>
+			<integer>0</integer>
 			<key>Silence Bell</key>
 			<false/>
 			<key>Smart Cursor Color (Dark)</key>
@@ -1148,7 +1150,7 @@
 			<key>Use Underline Color (Light)</key>
 			<false/>
 			<key>Vertical Spacing</key>
-			<real>1</real>
+			<real>1.04</real>
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
@@ -2150,7 +2152,7 @@
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<true/>
+	<false/>
 	<key>ShowPaneTitles</key>
 	<false/>
 	<key>SoundForEsc</key>

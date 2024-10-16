@@ -243,7 +243,7 @@
     },
     "tap": {
       "hashicorp/tap": {
-        "revision": "aa509aacaffc56869d04df9d2dffef20812cf8f1"
+        "revision": "134d8be1ceeb08a9412d9bee7c5f591b05e7ed83"
       }
     }
   },
