@@ -1,5 +1,8 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
+[docker]
+disabled = true
+
 [git_branch]
 symbol = ''
 
