@@ -1,4 +1,4 @@
-hs.hotkey.bind({"cmd", "alt", "ctrl"}, "W", function()
+hs.hotkey.bind({"shift", "ctrl"}, "W", function()
   hs.notify.new({
     title="Hammerspoon",
     informativeText="Hello World",
@@ -9,7 +9,7 @@ hs.hotkey.bind({"cmd", "alt", "ctrl"}, "W", function()
   }):send()
 end)
 
-hs.hotkey.bind({"cmd", "alt", "ctrl"}, "R", function()
+hs.hotkey.bind({"shift", "ctrl"}, "R", function()
   hs.reload()
 end)
 
@@ -31,4 +31,20 @@ hs.hotkey.bind({"ctrl", "alt"}, "tab", function()
       os.getenv("HOME") .. "/.automation/close_notifications.js",
     })
     :start()
+end)
+
+hs.hotkey.bind({"shift", "ctrl"}, "A", function()
+  hs.application.launchOrFocus("Safari")
+end)
+
+hs.hotkey.bind({"shift", "ctrl"}, "S", function()
+  hs.application.launchOrFocus("Slack")
+end)
+
+hs.hotkey.bind({"shift", "ctrl"}, "D", function()
+  hs.application.launchOrFocus("iTerm")
+end)
+
+hs.hotkey.bind({"shift", "ctrl"}, "F", function()
+  hs.application.launchOrFocus("Cursor")
 end)
