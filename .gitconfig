@@ -76,7 +76,6 @@
 [core]
 	whitespace = trailing-space,space-before-tab
 	fsmonitor = true
-	hooksPath = /Users/spencerschack/.secret-guard/hooks
 [diff]
 	mnemonicprefix = true
 [merge]
